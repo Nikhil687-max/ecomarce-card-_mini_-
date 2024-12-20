@@ -1,0 +1,64 @@
+body{
+    background-color: #212121;
+    margin: auto;
+}
+#mainCard
+{
+    background-color: #485348;
+    text-align: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: 40vh auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+*{
+    color: rgb(211, 245, 213);
+}
+
+#productList{
+    list-style: none;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#productList li{
+    padding: 1rem;
+    background-color: #393d38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#productList li button{
+    margin-left: 2rem;
+    background-color: rgba(46, 71, 194, 0.822);
+    padding: 0.3rem;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#empty{
+    color: whitesmoke;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 0.4rem 0;
+    text-align: center;
+}
+#checkout{
+    background-color: rgba(46, 71, 194, 0.822);
+    padding: 0.3rem;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: right;
+    align-content: end;
+}
+.hidden{
+    display: none;
+}
